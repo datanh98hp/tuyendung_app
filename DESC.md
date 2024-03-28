@@ -4,10 +4,10 @@
 -- PHP : Laravel + Vue (Nextjs)
   -> Nhược diểm: - 2 server khác biệt
                  
-    
--- Nodejs : Nestjs + Nextjs (Vue)
-   -> Nhược diểm: - 1 server : - Docker compose
                   
-
+---
+ node 18.17
+ next 14
+ 
 
 https://laravel.com/docs/10.x
