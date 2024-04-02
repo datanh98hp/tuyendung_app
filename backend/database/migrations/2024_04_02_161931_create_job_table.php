@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('description');
             $table->string('location');
 
-            $table->unsignedBigInteger('typeId');
-            $table->foreign('typeId')->references('id')->on('type');
+            $table->unsignedBigInteger('tag_id');
+            $table->foreign('tag_id')->references('id')->on('tag');
 
             $table->unsignedBigInteger('level_id');
             $table->foreign('level_id')->references('id')->on('level');
@@ -26,6 +26,21 @@ return new class extends Migration
             $table->unsignedBigInteger('authorId');
             $table->foreign('authorId')->references('id')->on('users');
 
+            $table->unsignedBigInteger('location_id');
+            $table->foreign('location_id')->references('id')->on('location');
+
+            $table->unsignedBigInteger('id_salary_range');
+            $table->foreign('id_salary_range')->references('id')->on('range_salary');
+
+            $table->unsignedBigInteger('experience_id');
+            $table->foreign('experience_id')->references('id')->on('experience');
+
+
+            $table->boolean('active')->default(true);
+            $table->string('banner')->nullable();
+         
+            $table->string('prioritized')->nullable();
+        
             $table->softDeletes($column = 'deleted_at', $precision = 0);
             $table->timestamps();
         });
