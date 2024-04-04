@@ -17,9 +17,6 @@ return new class extends Migration
             $table->string('description');
             $table->string('location');
 
-            $table->unsignedBigInteger('tag_id');
-            $table->foreign('tag_id')->references('id')->on('tag');
-
             $table->unsignedBigInteger('level_id');
             $table->foreign('level_id')->references('id')->on('level');
 
