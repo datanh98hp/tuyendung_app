@@ -20,9 +20,11 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         $this->call([
-            LevelSeeder::class,
-            ExperienceSeeder::class,
-            RangeSalarySeeder::class
+            // LevelSeeder::class,
+            // ExperienceSeeder::class,
+            // RangeSalarySeeder::class,
+            LocationSeeder::class
+
         ]);
     }
 }
