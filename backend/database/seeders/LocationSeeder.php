@@ -16,7 +16,6 @@ class LocationSeeder extends Seeder
             $countLocaton = DB::table('location')->count();
             if ($countLocaton !== 0) { //xoa het du lieu
                 DB::table('location')->delete();
-
             }
             $response = Http::withHeaders([
                 'Content-type',
