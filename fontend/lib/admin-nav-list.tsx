@@ -1,42 +1,40 @@
 import {
   Contact2Icon,
-  CreditCard,
   LayoutDashboard,
   NewspaperIcon,
-  Table,
   UserCog,
-  UserPlus,
-  UserRoundCog,
+  UserRoundCog
 } from "lucide-react";
-
+const prefix = `/admin`;
 export const navList = [
   {
     name: "Dashboard",
-    href: "/",
+    // href: `${prefix}/dashboard`,
+    href: `/`,
     type: "control",
     icon: <LayoutDashboard size={20} />,
   },
   {
-    name: "Account Settings",
-    href: "/account-settings",
+    name: "Cài đặt tài khoản",
+    href: `${prefix}/account-settings`,
     type: "control",
     icon: <UserCog size={20} />,
   },
   {
-    name: "Job Feed",
-    href: "/job-feeds",
+    name: "Bảng tin việc làm",
+    href: `${prefix}/job-feeds`,
     type: "manage",
     icon: <NewspaperIcon size={20} />,
   },
   {
-    name: "User management",
-    href: "/user-management",
+    name: "Quản lí người dùng",
+    href: `${prefix}/user-management`,
     type: "manage",
     icon: <UserRoundCog size={20} />,
   },
   {
-    name: "Contacts",
-    href: "/contacts",
+    name: "Liên hệ / Thôn tin",
+    href: `${prefix}/contacts`,
     type: "manage",
     icon: <Contact2Icon size={20} />,
   },
