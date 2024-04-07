@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             // ExperienceSeeder::class,
             // RangeSalarySeeder::class,
             //LocationSeeder::class,
-            TagSeeder::class
+            // TagSeeder::class
 
         ]);
     }

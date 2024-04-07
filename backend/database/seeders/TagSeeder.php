@@ -13,6 +13,10 @@ class TagSeeder extends Seeder
      */
     public function run(): void
     {
+        // $count = DB::table('tag')->count();
+        // if ($count > 0) {
+        //     DB::table('tag')->truncate();
+        // }
         DB::table('tag')->insert([
             'name' => 'Công nghệ thông tin / Viễn thông',
         ]);
