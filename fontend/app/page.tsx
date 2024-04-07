@@ -4,10 +4,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Home() {
   return (
-<<<<<<< HEAD
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <h1>Tuyen dung app</h1>
-=======
     <main className="w-full h-[100vh] flex pt-4 bg-gradient-to-b from-[#031544] to-[#BD6267] text-white">
       <div className="flex flex-col pl-4 md:w-56 w-16">
         <div className="mb-4 flex items-center space-x-2 min-w-max">
@@ -105,7 +101,6 @@ export default function Home() {
           Content
         </div>
       </div>
->>>>>>> origin/fe
     </main>
   );
 }
