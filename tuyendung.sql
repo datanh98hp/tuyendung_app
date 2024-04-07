@@ -343,6 +343,7 @@ CREATE TABLE `users` (
   `role` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `desc` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `active` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `avt` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `banner` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
