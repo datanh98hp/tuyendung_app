@@ -77,6 +77,6 @@
 
 @layer components {
   .nav-item {
-    @apply flex items-center space-x-2 my-1 hover:bg-[#5B4C97] rounded-r-3xl p-4 ml-[-16px] hover:bg-opacity-40 focus:bg-[#5B4C97] focus:bg-opacity-40;
+    @apply w-full flex items-center space-x-2 my-1 hover:bg-[#5B4C97] rounded-r-3xl p-4 ml-[-16px] hover:bg-opacity-40 focus:bg-[#5B4C97] focus:bg-opacity-40;
   }
 }

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="w-full h-[100vh] flex pt-4 bg-gradient-to-b from-[#031544] to-[#BD6267] text-white">
       <div className="w-full h-[100vh] flex pt-4 bg-gradient-to-b from-[#031544] to-[#BD6267] text-white">
-        <div className="flex flex-col pl-4 md:w-60 w-16">
+        <div className="flex flex-col pl-4 md:w-64 w-16">
           <div className="mb-4 flex items-center space-x-2 min-w-max">
             <Avatar>
               <AvatarImage src="https://as2.ftcdn.net/v2/jpg/01/63/10/55/1000_F_163105551_kfiwm8lzEWEESQDxNOt1NQk3lmiFpyYP.jpg" />
