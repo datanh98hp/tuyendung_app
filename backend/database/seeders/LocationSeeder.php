@@ -1,16 +1,9 @@
 <?php
 
 namespace Database\Seeders;
-<<<<<<< HEAD
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\DB;
-=======
-
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Http;
->>>>>>> be
 class LocationSeeder extends Seeder
 {
     /**

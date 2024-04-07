@@ -23,7 +23,6 @@ Route::controller(JobController::class)->group(function () {
 });
 
 /// cập nhật data provinces
-
 Route::get('/reload-province-data', function () {
     try {
         $countLocaton = DB::table('location')->count();
