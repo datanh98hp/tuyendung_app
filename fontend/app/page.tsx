@@ -5,6 +5,7 @@ import { navList } from "@/lib/admin-nav-list";
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //   <h1>Tuyen dung app</h1>
       <main className="w-full h-[100vh] flex pt-4 bg-gradient-to-b from-[#031544] to-[#BD6267] text-white">
@@ -106,5 +107,10 @@ export default function Home() {
         </div>
       </main>
     // </main>
+=======
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      
+    </main>
+>>>>>>> be
   );
 }
