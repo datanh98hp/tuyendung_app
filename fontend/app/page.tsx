@@ -1,11 +1,9 @@
-
 import NavMenuItem from "@/components/Nav/Nav";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { navList } from "@/lib/admin-nav-list";
 
 export default function Home() {
   return (
-<<<<<<< HEAD
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //   <h1>Tuyen dung app</h1>
       <main className="w-full h-[100vh] flex pt-4 bg-gradient-to-b from-[#031544] to-[#BD6267] text-white">
@@ -18,7 +16,7 @@ export default function Home() {
             <p>JOB FRESH</p>
           </div>
           <nav className="w-full">
-            {navList.map((item) => ( 
+            {navList.map((item) => (
               <NavMenuItem
                 key={item.name}
                 name={item.name}
@@ -32,31 +30,31 @@ export default function Home() {
         <div className="w-full md:px-20 pr-4">
           <header className="w-full flex justify-end items-center mb-4">
             {/* <form className="relative">
-            <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-              <svg
-                className="w-4 h-4 text-gray-500 dark:text-gray-400 "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                />
-              </svg>
-            </div>
-            <input
-              type="search"
-              id="default-search"
-              className="w-full p-2 ps-10 text-sm text-gray-900 border  rounded-lg bg-gray-50 placeholder-gray-400 outline-none"
-              placeholder="Search ..."
-              required
-            />
-          </form> */}
+          <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <svg
+              className="w-4 h-4 text-gray-500 dark:text-gray-400 "
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 20 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+              />
+            </svg>
+          </div>
+          <input
+            type="search"
+            id="default-search"
+            className="w-full p-2 ps-10 text-sm text-gray-900 border  rounded-lg bg-gray-50 placeholder-gray-400 outline-none"
+            placeholder="Search ..."
+            required
+          />
+        </form> */}
             <div className="flex items-center space-x-2">
               <div>
                 <svg
@@ -107,10 +105,5 @@ export default function Home() {
         </div>
       </main>
     // </main>
-=======
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
-    </main>
->>>>>>> be
   );
 }
